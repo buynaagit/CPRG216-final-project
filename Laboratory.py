@@ -6,15 +6,18 @@ class Laboratory:
     def __init__(self,name = "",cost = ""):
         self.name = name
         self.cost = cost
+        
     # Formats the Laboratory object similar to the laboratories.txt file 
     def format_lab_info(self, lab):
          return str(lab.name + "_" + lab.cost)
+        
     #  Asks the user to enter lab name and cost and forms a Laboratory object
     def enter_laboratory_info(self):
         name = input( " Enter the name of the laboratory: ")
         cost = input("Enter the cost of the labratory: ")
         entered_info = Laboratory(name,cost)
         return entered_info
+    
     #  Reads the laboratories.txt file and fills its contents in a list of Laboratory objects
     def read_laboratory_file(self):
          with open("Laboratory_Cost.txt") as file_in:
@@ -53,27 +56,4 @@ class Laboratory:
         # then write the formatted data to doctors.txt
          formatted_doc = self.format_lab_info(new_lab)
          file.write(f"\n{formatted_doc}")
-      # while loop, this is where the choices are made
-      
-      
-def laboratory_menu():
-        Laboratory().read_laboratory_file()
-        while 1:
-            print("Laboratory Menu")
-            print("1 - Display Laboratory List")
-            print("2 - Add Laboratory")
-            print("3 Go back to the  Main Menu")
-            choice = int(input("Enter your choice"))
-            if choice == 1:
-                Laboratory().display_labs_list()
-            elif choice == 2:
-                Laboratory().add_lab_to_file()
-            elif choice == 3:
-                    print(""" Select an option from the following options or 0 to stop: 
-        1 - 	Doctors
-        2 - 	Facilities 
-        3 - 	Laboratories 
-        4 - 	Patients """)
-        
-
-laboratory_menu()
+      # while loop, this is where the choices are made      
