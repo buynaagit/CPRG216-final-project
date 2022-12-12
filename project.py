@@ -1,9 +1,11 @@
 import os
 
 
-#This is my change for test for github
+#My change --->>>>>>>> GIT HUB!!!!
 class Doctor:
     doctors = []
+    
+    doctors_test = []
    
     """
     Formats each doctor’s information (properties) in the same format 
