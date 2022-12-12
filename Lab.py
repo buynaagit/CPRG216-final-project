@@ -38,7 +38,7 @@ class Laboratory:
         x = open("laboratory_Cost.txt", "w")
         x.write("Laboratory List: ")
         for lab in self.laboratory_list:
-            x.write("\n" + lab.format_lab_info())
+            x.write("\n" + self.format_lab_info())
         x.close()
     #    Adds and writes the lab name to the file in the format of the data 
     #    that is in the file       
