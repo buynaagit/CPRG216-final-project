@@ -1,12 +1,8 @@
 import os
 
 
-#My change --->>>>>>>> GIT HUB!!!!
 class Doctor:
     doctors = []
-    
-    doctors_test = []
-   
     """
     Formats each doctor’s information (properties) in the same format 
     used in the .txt file (i.e., has underscores between values)
