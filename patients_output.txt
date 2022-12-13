@@ -1,0 +1,86 @@
+Select an option from the following options or 0 to stop: 
+        1 -     Doctors
+        2 -     Facilities
+        3 -     Laboratories
+        4 -     Patients
+4
+Loading patients.txt to the list: Completed
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+1
+id   Name                   Disease         Gender          Age
+
+12   Pankaj                 Cancer          Male            30       
+
+13   Janina                 Cold            Female          23       
+
+14   Alonna                 Malaria         Female          45       
+
+15   Ravi                   Diabetes        Male            65       
+
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+2
+Enter the patient's id: 
+16
+Patient name can't be found in the system
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+2
+Enter the patient's id: 
+15
+15   Ravi                   Diabetes        Male            65       
+
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+3
+Enter Patient's id: 
+16
+Enter Patient's name:
+Mary
+Enter Patient's disease: 
+Cancer
+Enter Patient's gender: 
+Female
+Enter Patient's age: 
+55
+Adding a new patient in the file: Complete
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+4
+Enter the id of the patient that you want to edit: 
+13
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+5
