@@ -1,0 +1,28 @@
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu 1
+Hospital  Facilities are:  
+Ambulance
+Admissions 
+Canteen
+Emergency
+
+ Back to previous menu     
+ Facilities Menu:
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu 2
+Enter Facility name:
+Covid Care
+
+ Back to previous menu
+ Facilities Menu:     
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu 1
+Hospital  Facilities are:
+Ambulance
+Admissions
+Canteen
+Emergency
+Covid Care
