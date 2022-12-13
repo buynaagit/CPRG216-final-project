@@ -1,0 +1,349 @@
+Welcome to the Hospital Managment system 
+ Select an option from the following options or 0 to stop:
+        1 -     Doctors
+        2 -     Facilities
+        3 -     Laboratories
+        4 -     Patients
+1
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+1
+id    name                           specilist            timing               qualification        roomNb
+
+21    Dr.Gody                        ENT                  5am-11am             MBBS,MD              17
+
+32    Dr.Vikram                      Physician            10pm-3am             MBBS,MD              45
+
+17    Dr.Amy                         Surgeon              8pm-2am              BDM                  8
+
+33    Dr.David                       Artho                10am-4pm             MBBS,MS              40
+
+123   Dr. Ross                       Headackes            8pm-10am             Mst                  102
+
+66    Dr.Mike kale                   Heart                9am-3pm              MS                   2
+
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+2
+
+ Enter the doctor Id:
+66
+66   Dr.Mike kale           Heart           9am-3pm         MS              2
+
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+3
+
+ Enter the doctor name:
+Dr.David
+33   Dr.David               Artho           10am-4pm        MBBS,MS         40
+
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+2
+
+ Enter the doctor Id:
+20
+Patient with ID 20 not in Doctor file.
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+3
+
+ Enter the doctor name:
+Dr. Tom
+Patient with ID Dr. Tom not in Doctor file.
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+4
+called enter dr info
+Enter the doctor’s ID:
+62
+Enter the doctor’s name
+Dr. Smith
+Enter the doctor’s specilaity
+Heart
+Enter the doctor’s timing (e.g., 7am-10pm)
+6am-11am
+Enter the doctor’s qualification
+PHD
+Enter the doctor’s room number
+12
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+5
+Please enter the id of the doctor that you want to edit their information:
+66
+
+Enter new Name:
+Dr. Mike kale
+
+Enter new Specilist in:
+Heart
+
+Enter new Timing:
+9am-3pm
+
+Enter new Qualification:
+MS
+
+Enter new Room number:
+2
+formmmm ['id_name_specilist_timing_qualification_roomNb\n', '21_Dr.Gody_ENT_5am-11am_MBBS,MD_17\n', '32_Dr.Vikram_Physician_10pm-3am_MBBS,MD_45\n', '17_Dr.Amy_Surgeon_8pm-2am_BDM_8\n', '33_Dr.David_Artho_10am-4pm_MBBS,MS_40\n', '123_Dr. Ross_Headackes_8pm-10am_Mst_102\n', '66_Dr. Mike kale_Heart_9am-3pm_MS_2\n', '62_Dr. Smith_Heart_6am-11am_PHD_12']
+id    name                           specilist            timing               qualification        roomNb
+
+21    Dr.Gody                        ENT                  5am-11am             MBBS,MD              17
+
+32    Dr.Vikram                      Physician            10pm-3am             MBBS,MD              45
+
+17    Dr.Amy                         Surgeon              8pm-2am              BDM                  8
+
+33    Dr.David                       Artho                10am-4pm             MBBS,MS              40
+
+123   Dr. Ross                       Headackes            8pm-10am             Mst                  102
+
+66    Dr. Mike kale                  Heart                9am-3pm              MS                   2
+
+62    Dr. Smith                      Heart                6am-11am             PHD                  12
+
+Back to the previous Menu
+
+1 - Display Doctors list
+2 - Search for doctor by id
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+6
+ Select an option from the following options or 0 to stop: 
+        1 -     Doctors
+        2 -     Facilities
+        3 -     Laboratories
+        4 -     Patients
+2
+ Facilities Menu:
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu
+1
+Hospital  Facilities are:
+Ambulance
+Admissions
+Canteen
+Emergency
+
+ Back to previous menu
+ Facilities Menu:
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu
+2
+Enter Facility name:
+Covid Care
+
+ Back to previous menu
+ Facilities Menu:
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu
+1
+Hospital  Facilities are:
+Ambulance
+Admissions
+Canteen
+Emergency
+Covid Care
+
+ Back to previous menu
+ Facilities Menu:
+1 - Display Facilities list
+2 - Add Facility
+3 - Back to the Main Menu
+3
+
+Back to the previous Menu
+ Select an option from the following options or 0 to stop:
+        1 -     Doctors
+        2 -     Facilities
+        3 -     Laboratories
+        4 -     Patients
+3
+
+1 - Display laboratories list
+2 - Add laboratory
+3 - Back to the Main Menu
+1
+Facility Cost
+
+Lab1  800
+
+Lab2  1200
+
+Lab3  500
+
+Lab4  50
+
+Back to the previous Menu
+
+1 - Display laboratories list
+2 - Add laboratory
+3 - Back to the Main Menu
+2
+ Enter the name of the laboratory: Lab5
+Enter the cost of the laboratory: 250
+
+Back to the previous Menu
+
+1 - Display laboratories list
+2 - Add laboratory
+3 - Back to the Main Menu
+1
+Facility Cost
+
+Lab1  800
+
+Lab2  1200
+
+Lab3  500
+
+Lab4  50
+Lab5  250
+
+Back to the previous Menu
+
+1 - Display laboratories list
+2 - Add laboratory
+3 - Back to the Main Menu
+3
+ Select an option from the following options or 0 to stop: 
+        1 -     Doctors
+        2 -     Facilities
+        3 -     Laboratories
+        4 -     Patients
+4
+Loading patients.txt to the list: Completed
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+1
+id   Name                   Disease         Gender          Age
+
+12   Pankaj                 Cancer          Male            30       
+
+13   Janina                 Cold            Female          23       
+
+14   Alonna                 Malaria         Female          45       
+
+15   Ravi                   Diabetes        Male            65       
+
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+2
+Enter the patient's id: 
+16
+Patient name can't be found in the system
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+2
+Enter the patient's id: 
+15
+15   Ravi                   Diabetes        Male            65       
+
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+3
+Enter Patient's id: 
+16
+Enter Patient's name:
+Mary
+Enter Patient's disease: 
+Cancer
+Enter Patient's gender: 
+Female
+Enter Patient's age: 
+55
+Adding a new patient in the file: Complete
+
+Back to the prevoius Menu
+
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+4
+Enter the id of the patient that you want to edit: 
+13
+1 - Display Patient list
+2 - Search for patient by id
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+5

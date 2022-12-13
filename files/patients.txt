@@ -1,0 +1,4 @@
+id_Name_Disease_Gender_Age
+_12_Pankaj_Cancer_Male_30
+_13_Janina_Cold&Flu_Female_23_14_Alonna_Malaria_Female_45
+_15_Ravi_Diabetes_Male_65_16_Mary_Cancer_Female_55_
