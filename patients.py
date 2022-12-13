@@ -9,7 +9,7 @@ class Patient:
         self.age = age
 
     def format_patient_info(self, patient):
-        return str(patient.id + "_" + patient.name + "_" + patient.disease + "_" + patient.gender + "_" + patient.age + "_")
+        return str(patient.id + "_" + patient.name + "_" + patient.disease + "_" + patient.gender + "_" + patient.age)
 
     def enter_patient_info(self):
         id = input("Enter Patient's id: \n")
