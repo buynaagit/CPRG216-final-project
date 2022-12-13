@@ -135,7 +135,7 @@ MS
 
 Enter new Room number:
 2
-formmmm ['id_name_specilist_timing_qualification_roomNb\n', '21_Dr.Gody_ENT_5am-11am_MBBS,MD_17\n', '32_Dr.Vikram_Physician_10pm-3am_MBBS,MD_45\n', '17_Dr.Amy_Surgeon_8pm-2am_BDM_8\n', '33_Dr.David_Artho_10am-4pm_MBBS,MS_40\n', '123_Dr. Ross_Headackes_8pm-10am_Mst_102\n', '66_Dr. Mike kale_Heart_9am-3pm_MS_2\n', '62_Dr. Smith_Heart_6am-11am_PHD_12']
+
 id    name                           specilist            timing               qualification        roomNb
 
 21    Dr.Gody                        ENT                  5am-11am             MBBS,MD              17

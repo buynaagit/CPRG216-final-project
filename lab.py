@@ -40,7 +40,6 @@ class Laboratory:
         for lab in self.laboratory_list:
            formatted_list.append(self.format_lab_info(lab)) 
         # then write the formatted data to doctors.txt
-        print('formmmm', formatted_list)
         with open('files/laboratories.txt', 'w') as file:
          file.writelines(formatted_list)
     #    Adds and writes the lab name to the file in the format of the data 

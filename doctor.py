@@ -159,7 +159,6 @@ class Doctor:
         for line in self.doctors:
            formatted_list.append(self.format_dr_info(line)) 
         # then write the formatted data to doctors.txt
-        print('formmmm', formatted_list)
         with open('files/doctors.txt', 'w') as file:
          file.writelines(formatted_list)
      
